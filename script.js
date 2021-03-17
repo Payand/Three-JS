@@ -40,7 +40,7 @@ const audioLoader = new THREE.AudioLoader();
 audioLoader.load("background-music.mp4", function(buffer) {
     sound.setBuffer(buffer);
     sound.setLoop(true);
-    sound.setVolume(0.1);
+    sound.setVolume(1);
     sound.play();
 });
 
