@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#infoMars {
+    position: absolute;
+    color: yellow;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+}
+
+#infoEarth {
+    position: absolute;
+    color: yellow;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+}
+
+#infoMoon {
+    position: absolute;
+    color: yellow;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+}
+
+canvas {
+    display: block;
+}
